@@ -16,7 +16,6 @@ const setQuery = (e) => {
     }
 }
 
-
 const getResult = (cityName) => {
     let query = `${url}weather?q=${cityName}&appid=${apikey}&units=metric&lang=tr`
     fetch(query)
